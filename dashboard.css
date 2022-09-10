@@ -1,0 +1,30 @@
+
+body {
+    background-image: linear-gradient(to right, #55aedb , #013a68);
+	color: #fffce9;
+    font-family: "Helvetica", "sans serif";
+  }
+
+body, .rpm-val-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.title {
+  font-size: 3.75rem;
+}
+
+body > div {
+  margin: 20px 0;
+}
+
+.rpm-val {
+  border: thin solid  white;
+  width: 300px;
+  text-align: end;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
